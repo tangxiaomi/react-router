@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import AppRouter from './appRouter';
+import NestRouter from './nestRouter';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<AppRouter />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+// 嵌套路由的演示 文件（components 和 nestRouter）
+ReactDOM.render(<NestRouter />, document.getElementById('root'));
